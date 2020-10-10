@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "testdunn"
+    }
+  },
+  "defaultProject": "testdunn",
+  "cli": {
+    "analytics": false
+  }
 }
