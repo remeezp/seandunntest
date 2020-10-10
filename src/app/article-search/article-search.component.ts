@@ -14,8 +14,12 @@ export class ArticleSearchComponent implements OnInit {
   }
 
   onToolbarClickEvent(value) {
-    console.log(`I was clicked and my value is ${value}`);
-    this.message = `I was clicked and my value is ${value}`;
+    if (value === true) {
+      this.message = `I was clicked and my value is ${value}`;
+    } else {
+      this.message = `I was clicked again and my value is ${value}`;
+    }
+
   }
 
 }

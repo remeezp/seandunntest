@@ -17,4 +17,8 @@ export class ArticleSearchToolbarComponent implements OnInit {
     this.searchCriteria.emit(true);
   }
 
+  onClickMeAgain() {
+    this.searchCriteria.emit(false);
+  }
+
 }
